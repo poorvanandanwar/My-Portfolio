@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    color: #7d7c7c;
+}
+span{
+    color: #f1efef;
+}
+span:hover{
+    cursor: default;
+    text-decoration: none;
+}
+.nav-link{
+    font-size: 1rem;
+    color: #f1efef;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    color: #ccc8aa;
+}
+nav{
+    height: 10vh;
+    background-color: #191717;
+}
+@media (max-width:765px){
+    .nav-link{
+        color: #7d7c7c;
+    }
+}
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    gap:5rem;
+    height: 80vh;
+}
+.profile-pic{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin:auto 0;
+}
+.profile-pic>img{
+    border-radius: 50%;
+}
+.profile-text{
+    align-self: center;
+}
+.profile-text>h1,h2{
+    color: #191717;
+}
+.profile-text>h1{
+    margin-bottom: 1rem;
+}
+.profile-text>h2{
+    color: #7d7c7c;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+.btn-container{
+    display: flex;
+    gap:20px;
+    margin-bottom: 1.5rem;
+}
+.btn-resume{
+    text-decoration: none;
+    color: #f1efef;
+}
+.btn-resume:hover{
+    text-decoration: none;
+    color: #ccc8aa;
+}
+.btn-contact{
+    text-decoration: none;
+    color: #191717;
+}
+.btn-contact:hover{
+    text-decoration: none;
+    color: #ccc8aa;
+}
+.socials-icons{
+    display:flex;
+    gap:20px;
+    padding-left: 0;
+    padding-top: 1.5rem;
+}
+.socials-icons>li{
+    list-style: none;
+}
+.bi:hover{
+    fill:#7d7c7c
+}
+#about{
+    padding-top: 8vh;
+    height: 76vh;
+}
+.about-container{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    gap:5rem;
+    height: 80vh;
+}
+.about-pic>img{
+    border-radius: 10%;
+    height: 350px;
+    width: 500px;
+}
+.about-para{
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.footer-link{
+    color: #191717;
+}
+#skills{
+    padding-top: 8vh;
+    height: 66vh;
+}
+.contact-title{
+    text-align: center;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    padding-bottom: 5vh;
+}
+.contact-info{
+    display: flex;
+    border-radius: 2rem;
+    justify-content: center;
+    border:0.1rem solid;
+    border-color: #191717;
+    background: #ffffff;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    gap:1rem;
+}
+.contact-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem;;
+}
+.contact-info-container p{
+    font-size: larger;
+    padding-top: 1rem;
+}
+.email{
+    text-decoration: none;
+    color: #191717;
+}
+.email:hover{
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    color: #7d7c7c;
+}
+@media(max-width:765px){
+    #profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:5rem;
+        height: 120vh;
+        padding-top: 40vh;
+        padding-bottom: 30vh;
+    }
+    .profile-pic{
+        display: flex;
+        margin:auto auto;
+    }
+    #about{
+        padding-top: 8vh;
+        height: 120vh;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        justify-content: center;
+        gap:5rem;
+        height: 80vh;
+    }
+    #projects{
+        height: 170vh;
+    }
+    #skills{
+        height: 90vh;
+    }
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        border-radius: 2rem;
+        justify-content: center;
+        border:0.1rem solid;
+        border-color: #191717;
+        background: #ffffff;
+        margin: 2rem auto;
+        padding: 0.5rem;
+        gap:0.25rem;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50vh;
+        padding-bottom: 20vh;
+    }
+}
